@@ -16,6 +16,12 @@ export async function Header() {
                         <Link href="/todos">
                             <Button variant="ghost">Todos</Button>
                         </Link>
+                        <Link
+                            href="/locations"
+                            className="text-sm font-medium transition-colors hover:text-primary"
+                            >
+                            Locations
+                        </Link>
                         <AdminNavEntry />
                     </nav>
                 </div>
