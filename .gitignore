@@ -36,6 +36,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+!.env.example
 
 # vercel
 .vercel
@@ -60,3 +61,7 @@ docker-compose.override.yml
 # Logs
 logs
 *.log
+
+# workspace
+.turbo
+.vscode
